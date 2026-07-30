@@ -1,0 +1,27 @@
+{
+  "name": "threejs-product-configurator",
+  "version": "0.1.0",
+  "description": "A small 3D product configurator — orbit, swap materials and colors, and export a PNG. Built with Three.js + Vite.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "three": "0.171.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.17.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/three": "0.171.0",
+    "eslint": "9.17.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "5.7.3",
+    "typescript-eslint": "8.19.1",
+    "vite": "6.0.7"
+  }
+}
