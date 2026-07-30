@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Configurator</title>
+    <meta
+      name="description"
+      content="A small 3D product configurator built with Three.js — orbit, swap materials and colors, export a PNG."
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main id="stage" aria-label="3D product view"></main>
+
+    <!-- Controls. The buttons inside get filled in by src/main.ts. -->
+    <aside id="panel" aria-label="Configurator controls">
+      <div class="group">
+        <h2>Color</h2>
+        <div id="colors" class="swatches" role="group" aria-label="Product color"></div>
+      </div>
+      <div class="group">
+        <h2>Material</h2>
+        <div id="materials" class="buttons" role="group" aria-label="Product material"></div>
+      </div>
+      <button id="shot" type="button" class="primary">Download PNG</button>
+    </aside>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
